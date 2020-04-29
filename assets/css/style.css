@@ -14,6 +14,7 @@ body {
     margin-bottom: 0;
     /* padding-left: 360px; */
     font-family: 'Bungee Shade', cursive;
+    font-weight: bold;
    
     
 }
@@ -23,6 +24,94 @@ body {
     color: #D9663D;
     font-size: 130px;
     font-family: 'Bungee Shade', cursive;
-    letter-spacing: 3px;
+    font-weight: bold;
+    /* letter-spacing: 3px; */
     
 }
+
+/* Selection page CSS starts here */
+
+.house2 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.fontDest {
+    font-family: 'Bungee Shade', cursive;
+    font-weight: bolder; 
+    background-color: black;
+    color: white;
+}
+
+
+.dest1 {
+    background-color:#F28B30;
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Bungee Shade', cursive;
+    color:white;
+    font-weight: bolder;
+    border-color: #F28B30;
+    border-style: solid; 
+    letter-spacing: 15px;   
+}
+
+.dest1:hover {
+    background-color:#F28B30;
+    color: black;
+}
+
+.dest2 {
+    background-color:#35848C;
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Bungee Shade', cursive;
+    color: white;
+    font-weight: bolder;
+    border-color: #35848C;
+    border-style: solid;
+    letter-spacing: 15px;
+}
+
+.dest2:hover {
+    background-color:#35848C;
+    color: black;
+}
+
+
+
+
+.dest3 {
+    background-color:#D9663D;
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Bungee Shade', cursive;
+    color: white;
+    font-weight: bolder;
+    border-color: #D9663D;
+    border-style: solid;
+    letter-spacing: 15px;
+}
+
+
+.dest3:hover {
+    background-color:#D9663D;
+    color:black;
+} 
+
+.dest4 {
+    background-color:#D93A2B;
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Bungee Shade', cursive;
+    color: white;
+    font-weight: bolder;
+    border-color: #D93A2B;
+    border-style: solid;
+    letter-spacing: 15px;
+}
+
+.dest4:hover {
+    background-color:#D93A2B;
+    color: black;
+} 
