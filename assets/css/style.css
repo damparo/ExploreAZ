@@ -113,8 +113,13 @@
 } 
 
 /* Destination page CSS starts here */
+.house3 {
+    margin-top: 25px;
+    text-align: center;
+}
+
 .footer {
-    position: fixed;
+    /* position: fixed; */
    left: 0;
    bottom: 0;
    width: 100%;
@@ -129,10 +134,34 @@
 }
 
 .destName {
-    text-align: left;
-    font-size: 25px;
+    text-align: center;
+    font-size: 50px;
     font-family: 'Bungee Shade', cursive;
     color:black;
     font-weight: bolder;
     letter-spacing: 10px;   
 }
+
+.indicator-item{
+    padding: 7px;
+}
+
+.carousel {
+    border-style: solid;
+    border-width: 5px;
+    border-color:  #F28B30;
+    /* width:  600px;
+    height: 600px; */
+}
+
+/* .carousel-item {
+    width:  50px;
+    height: 50px;
+} */
+
+
+/* .carousel-item {
+    border-style: solid;
+    border-width: 5px;
+    border-color:  #F28B30;
+} */
