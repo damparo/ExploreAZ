@@ -30,7 +30,6 @@
 }
 
 
-
 /* Selection page CSS starts here */
 
 .house2 {
@@ -119,16 +118,22 @@
 } 
 
 /* Destination page CSS starts here */
+
+
+
 .house3 {
     margin-top: 25px;
     text-align: center;
+    /* padding-bottom: 2.5rem; */
 }
 
 .footer {
-    /* position: fixed; */
+    position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
+   height: 2.5rem;
+
    
    
    color: white;
@@ -148,6 +153,8 @@
     letter-spacing: 10px;   
 }
 
+
+
 .indicator-item{
     padding: 7px;
 }
@@ -156,14 +163,42 @@
     border-style: solid;
     border-width: 5px;
     border-color:  #F28B30;
-    /* width:  600px;
-    height: 600px; */
+    width:  30vw;
+    margin:auto;
+
 }
 
-/* .carousel-item {
-    width:  50px;
-    height: 50px;
-} */
+@media only screen and (max-width: 700px) {
+    
+    .carousel {
+        width: 90vw;
+    }
+
+    .destName {
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+
+    .footer {
+        position: absolute;
+    }
+    /* .dennis {
+        position: relative;
+        min-height: 100vh;
+    } */
+    .house3 {
+        padding-bottom: 2.5rem;
+    }
+
+}
+
+
+
+.carousel-item img {
+        width:  100%;
+        height: 100%;
+    
+}
 
 
 /* .carousel-item {
