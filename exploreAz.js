@@ -37,7 +37,7 @@ $(document).ready(function(){
 
 
     $("#destWeather").append(
-      $("<p>").text("Current Weather in Flagstaff:"),
+      $("<p>").text("Current Weather in Twin Arrows:"),
       $("<img>").attr("src", wIcon),
       $("<p>").text("Temperature (F): " + temp),
       $("<p>").text("Humidity: " + humid + " %"),
