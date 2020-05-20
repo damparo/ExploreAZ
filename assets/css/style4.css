@@ -16,6 +16,7 @@
 
 .nav1 {
     background-color: #D93A2B;
+    font-family: "Bungee", cursive;
 }
 
 .destName {
@@ -80,3 +81,23 @@
     border-width: 5px;
     border-color:  #F28B30;
 } */
+.destDescrip {
+    /* margin:auto; */
+    /* width: 30vw;
+      margin: auto; */
+    text-align: justify;
+    font-family: 'Aleo', serif;
+  
+    /* align-content: center; */
+  }
+  
+  
+  
+  .destDirec {
+    font-family: 'Aleo', serif;
+  }
+  
+  #destWeather {
+    /* text-align: justify; */
+    font-family: 'Aleo', serif;
+  }
