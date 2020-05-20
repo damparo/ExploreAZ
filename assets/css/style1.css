@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(255, 251, 245);
+}
+
 .house {
     margin-top: 200px;
 }
@@ -25,10 +29,31 @@
     
 }
 
-#copperSt {
-    color: #D9663D;
+
+
+.enter {
+    text-align: center;
+    margin-left: 45%;
+   
 }
 
+.enterbtn {
+    text-align: center;
+    background-color: #2C8008;
+    font-size: 18px;
+    font-family: 'Bungee Shade', cursive;
+    font-weight: bold;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    
+    
+}
+.enterbtn:hover {
+
+    background-color: white;
+    color:#2C8008;
+}
 
 /* Selection page CSS starts here */
 
