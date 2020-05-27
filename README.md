@@ -1,7 +1,7 @@
 # ExploreAZ
 
 ## Description
----
+
 
 An application that lets a user check out travel destinations in the state of Arizona.
 
