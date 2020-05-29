@@ -32,7 +32,7 @@ body {
   font-size: 8vw;
   font-family: "Bungee Shade", cursive;
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: 0.15vw;
 }
 
 .enter {
@@ -48,7 +48,7 @@ body {
   font-weight: bold;
   border-style: solid;
   border-color: black;
-  border-width: 1px;
+  border-width: 0.05vw;
 }
 .enterbtn:hover {
   background-color: white;
