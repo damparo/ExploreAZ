@@ -1,10 +1,12 @@
 $(document).ready(function(){
+  $('.sidenav').sidenav();
+});
+
+$(document).ready(function(){
     $('.carousel').carousel({
         fullWidth: true,
         indicators: true,
-       
-       
-
+    
     })
   });
 
@@ -28,12 +30,9 @@ $(document).ready(function(){
     var temp = response1.main.temp;
     var humid = response1.main.humidity;
     var wind = response1.wind.speed;
-    // var uvlon = response1.coord.lon;
-    // var uvlat = response1.coord.lat;
     var image = response1.weather[0].icon;
     var wIcon = "https://openweathermap.org/img/w/" + image + ".png";
-    // var uv = $("#weatherdetails");
-    // console.log(uvlat);
+
 
 
     $("#destWeather").append(
@@ -42,39 +41,7 @@ $(document).ready(function(){
       $("<p>").text("Temperature (F): " + temp),
       $("<p>").text("Humidity: " + humid + " %"),
       $("<p>").text("Wind Speed: " + wind + " MPH"),
-      // $("<h3>").text(city),
-      // $("<p>").moment().subtract(10, 'days').calendar(),
-      // $("#weatherdetails0").empty(),
     );
-
-
-
-    // $("#destWeather1").append(
-    //   $("<p>").text("Temperature (F): " + temp),
-    //   $("<p>").text("Humidity: " + humid + " %"),
-    //   $("<p>").text("Wind Speed: " + wind + " MPH"),
-    //   $("#destWeather1").empty()
-    // );
-
-    // var uvqueryURL =
-    //   "https://api.openweathermap.org/data/2.5/uvi?appid=" +
-    //   apiKey +
-    //   "&lat=" +
-    //   uvlat +
-    //   "&lon=" +
-    //   uvlon;
-    // console.log(uvqueryURL);
-
-    // $.ajax({
-    //   url: uvqueryURL,
-    //   method: "GET"
-    // }).then(function(response2) {
-    //   console.log(response2.value);
-
-    //   $("#destWeather1").append(
-    //     $("<p>").text("UV Index: " + response2.value)
-    //   );
-    // });
   });
 
 

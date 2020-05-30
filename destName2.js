@@ -1,4 +1,9 @@
 $(document).ready(function(){
+  $('.sidenav').sidenav();
+});
+
+
+$(document).ready(function(){
     $('.carousel').carousel({
         fullWidth: true,
         indicators: true,
