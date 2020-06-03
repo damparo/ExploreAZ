@@ -30,7 +30,7 @@ body {
 .arizona {
   text-align: center;
   color: #d9663d;
-  font-size: 8vw;
+  font-size: 14vw;
   font-family: "Bungee Shade", cursive;
   font-weight: bold;
   letter-spacing: 0.15vw;
@@ -89,13 +89,14 @@ body {
 .exitbtn {
   text-align: center;
   background-color: #2c8008;
-  font-size: 18px;
+
   font-family: "Bungee", cursive;
   /* font-weight: bold; */
   border-style: solid;
   border-color: black;
-  border-width: 1px;
+  border-width: 0.05vw;
 }
+
 .exitbtn:hover {
   background-color: white;
   color: #2c8008;
@@ -104,13 +105,14 @@ body {
 .dest1 {
   background-color: #f28b30;
   width: 100%;
-  font-size: 25px;
+  /* font-size: 3vw; */
+  font-size: 3vh;
   font-family: "Bungee Shade", cursive;
   color: black;
   font-weight: bolder;
   border-color: #f28b30;
   border-style: solid;
-  letter-spacing: 15px;
+  letter-spacing: 1.5vw;
 }
 
 .dest1:hover {
@@ -121,13 +123,13 @@ body {
 .dest2 {
   background-color: #35848c;
   width: 100%;
-  font-size: 25px;
+  font-size: 3vh;
   font-family: "Bungee Shade", cursive;
   color: black;
   font-weight: bolder;
   border-color: #35848c;
   border-style: solid;
-  letter-spacing: 15px;
+  letter-spacing: 1.5vw;
 }
 
 .dest2:hover {
@@ -138,13 +140,13 @@ body {
 .dest3 {
   background-color: #d9663d;
   width: 100%;
-  font-size: 25px;
+  font-size: 3vh;
   font-family: "Bungee Shade", cursive;
   color: black;
   font-weight: bolder;
   border-color: #d9663d;
   border-style: solid;
-  letter-spacing: 15px;
+  letter-spacing: 1.5vw;
 }
 
 .dest3:hover {
@@ -155,13 +157,13 @@ body {
 .dest4 {
   background-color: #d93a2b;
   width: 100%;
-  font-size: 25px;
+  font-size: 3vh;
   font-family: "Bungee Shade", cursive;
   color: black;
   font-weight: bolder;
   border-color: #d93a2b;
   border-style: solid;
-  letter-spacing: 15px;
+  letter-spacing: 1.5vw;
 }
 
 .dest4:hover {
