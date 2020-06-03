@@ -238,6 +238,7 @@ body {
     margin: auto; */
   text-align: justify;
   font-family: 'Aleo', serif;
+  margin-top: 4vh;
 
   /* align-content: center; */
 }
