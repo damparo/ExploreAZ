@@ -35,11 +35,8 @@ $(document).ready(function(){
 
 
     $("#destWeather").append(
-      $("<p>").text("Current Weather in Chiricahua:"),
       $("<img>").attr("src", wIcon),
-      $("<p>").text("Temperature (F): " + temp),
-      $("<p>").text("Humidity: " + humid + " %"),
-      $("<p>").text("Wind Speed: " + wind + " MPH"),
-     
+      $("<p>").text(temp + "°F"),
+   
     );
   });
