@@ -7,7 +7,7 @@ body {
 } */
 
 .flex-container {
-  margin-top: 200px;
+  margin-top: 100px;
   display: flex;
   align-content: center;
   /* justify-content: space-evenly; */
@@ -30,11 +30,11 @@ body {
 .arizona {
   text-align: center;
   color: #d9663d;
-  font-size: 14vw;
+  font-size: 12vw;
   font-family: "Bungee Shade", cursive;
   font-weight: bold;
   letter-spacing: 0.15vw;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 .enter {
@@ -206,9 +206,9 @@ body {
 }
 
 .carousel {
-  border-style: solid;
+  /* border-style: solid;
   border-width: 5px;
-  border-color: #f28b30;
+  border-color: #f28b30; */
   width: 30vw;
   margin: auto;
 }
@@ -226,6 +226,26 @@ body {
     padding-bottom: 2.5rem;
   }
 }
+
+
+/* @media only screen and (max-width: 701px) and (orientation:landscape) {
+  .carousel {
+    width: 90vw;
+  }
+
+  .destDescrip {
+    
+  }
+  .destDirec {
+    
+  }
+  .destWeather {
+    
+  }
+} */
+
+
+
 
 .carousel-item img {
   width: 100%;
