@@ -25,7 +25,7 @@
     font-family: 'Bungee Shade', cursive;
     color:black;
     font-weight: bolder;
-    letter-spacing: 9px;
+    letter-spacing: 8px;
     width: 30vw;   
 }
 
@@ -94,10 +94,6 @@ font-family: 'Aleo', serif;
         width: 90vw;
         font-size: 30px;
         letter-spacing: 5px;
-    }
-
-    .footer {
-        position: absolute;
     }
     
     .house3 {
