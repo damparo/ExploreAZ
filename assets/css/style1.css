@@ -20,7 +20,7 @@ body {
 
 .welcome {
   color: #35848c;
-  font-size: 3.25vw;
+  font-size: 5vw;
   margin-bottom: 0;
   /* padding-left: 360px; */
   font-family: "Bungee Shade", cursive;
@@ -31,7 +31,7 @@ body {
 .arizona {
   text-align: center;
   color: #d9663d;
-  font-size: 8vw;
+  font-size: 12vw;
   font-family: "Bungee Shade", cursive;
   font-weight: bold;
   letter-spacing: 0.15vw;
