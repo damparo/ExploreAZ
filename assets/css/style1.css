@@ -3,7 +3,7 @@ body {
 }
 
 .house {
-  margin-top: 25vh;
+  margin-top: 20vh;
   /* margin:auto; */
 }
 
@@ -31,11 +31,11 @@ body {
 .arizona {
   text-align: center;
   color: #d9663d;
-  font-size: 12vw;
+  font-size: 14vw;
   font-family: "Bungee Shade", cursive;
   font-weight: bold;
   letter-spacing: 0.15vw;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
 }
 
 .enter {
@@ -129,7 +129,7 @@ body {
   font-weight: bolder;
   border-color: #35848c;
   border-style: solid;
-  letter-spacing: 1.5vw;
+  letter-spacing: 1.35vw;
 }
 
 .dest2:hover {
