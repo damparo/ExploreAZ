@@ -49,11 +49,11 @@ container {
 
 .welcome {
   color: white;
-  font-size: 5vw;
+  /* font-size: 5vw; */
   margin-bottom: 0;
   /* padding-left: 360px; */
   font-family: "Bungee Shade", cursive;
-  /* font-weight: bold; */
+  font-weight: bold;
   text-align: center;
 }
 
