@@ -25,6 +25,35 @@
   text-align: center;
 }
 
+.Explore {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: larger;
+  color: white;
+  display: none;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 12px;
+  background-color: transparent;
+  width: 225px;
+}
+
+.Explore:hover {
+  background-color: transparent;
+   
+}
+
+.fa-long-arrow-right {
+  padding-left: 10px;
+
+}
+
 @media only screen and (max-width: 800px) {
   /* .secondpic {
     max-width: 200px;
@@ -37,12 +66,17 @@
   }
 
   .centered {
-    display: block;
+    display: none;
   }
   
   .parallax-container {
     display: none;
   }
+
+  .Explore {
+    display: block;
+  }
+  
 
   body {
     background-image: url("./IMG_4362.jpg");
