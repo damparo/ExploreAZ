@@ -10,7 +10,7 @@ $(document).ready(function(){
     })
   });
 
-// weather information - single day
+
 
   var city = "flagstaff"
   var apiKey = "9f3310b38a0b78b3d966eb1da9d1599e";
@@ -30,8 +30,6 @@ $(document).ready(function(){
     var temp = response1.main.temp;
     var image = response1.weather[0].icon;
     var wIcon = "https://openweathermap.org/img/w/" + image + ".png";
-
-
 
     $("#destWeather").append(
       $("<img>").attr("src", wIcon),
