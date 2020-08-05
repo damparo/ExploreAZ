@@ -105,11 +105,15 @@
   .webexplore {
     display: none;
   }
-
+  /* #randomPic {
+    display: block;
+  
+} */
 
 
 }
 
+/* commenting this out made the page work */
 /* @media only screen and (min-width: 800px) {
   #randomPic {
       display: none;
