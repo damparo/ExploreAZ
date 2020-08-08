@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HiddenAZ</title>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link
       href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap"
@@ -23,10 +26,25 @@
     <link rel="stylesheet" href="./assets/css/style1.css" />
   </head>
   <body>
-    <div class="container row house2">
+    <nav>
+      <div class="nav-wrapper">
+        
+        <!-- <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
+        <ul id="nav-mobile" class="right">
+          <li><a href="selection.html"><i class="medium material-icons">explore</i></a></li>
+          <li><a href="index.html"><i class="medium material-icons">home</i></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+
       <div class="row fontDest">
         <h4>Explore our featured destinations:</h4>
       </div>
+
+      <div class="row" id="map"></div>
+
 
       <div class="row">
         <a
@@ -35,6 +53,7 @@
           >Twin Arrows</a
         >
       </div>
+
       <div class="row">
         <a
           href="fossilCreek.html"
@@ -42,25 +61,34 @@
           >Fossil Creek</a
         >
       </div>
+
       <div class="row">
         <a href="bisbee.html" class="waves-effect waves-light btn-large dest3"
           >BisBee</a
         >
       </div>
+
       <div class="row">
         <a href="chiri.html" class="waves-effect waves-light btn-large dest4"
           >Chiricahua</a
         >
       </div>
 
-      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qRI1_zfKwTH1eELUCY1pyC4Z1omdPynb" width="640" height="480"></iframe>
+      <!-- <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qRI1_zfKwTH1eELUCY1pyC4Z1omdPynb" width="640" height="480"></iframe> -->
 
 
-      <div class="leave">
-        <a class="waves-effect waves-light btn exitbtn" href="index.html"
-          >Exit Site</a
-        >
-      </div>
+  
+
+
     </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9ZlLxFonvHiDxEfNm1wua4_87JsjHLOY&callback=initMap"></script>
+
+    <script src="script.js"></script>
+
   </body>
 </html>

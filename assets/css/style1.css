@@ -1,4 +1,39 @@
+nav {
 
+  background-color: white;
+  box-shadow: none;
+  color: black;
+
+}
+/* #destWeather {
+  padding-top: 30px;
+ } */
+ #destWeather {
+  height: 50px;
+
+ }
+.space:hover{
+  background-color: transparent;
+  cursor: default;
+}
+
+
+
+ /* .remove:hover {
+ background-color:transparent;
+ } */
+
+#destTemp {
+ color: black;
+}
+.material-icons {
+  color: black;
+}
+.flexNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .responsive {
   width: 100%;
@@ -105,10 +140,10 @@
   .webexplore {
     display: none;
   }
-  /* #randomPic {
+  #randomPic {
     display: block;
   
-} */
+}
 
 
 }
@@ -124,9 +159,19 @@
 
 /* Selection page CSS starts here */
 
-.house2 {
-  margin-top: 30px;
-  text-align: center;
+#map {
+  height: 650px;
+  width: 50%;
+  
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .fontDest {
@@ -137,25 +182,7 @@
   font-family: 'Bungee', cursive;
 }
 
-.leave {
-  margin-top: 25px;
-}
 
-.exitbtn {
-  text-align: center;
-  background-color: #2c8008;
-
-  font-family: "Bungee", cursive;
-  /* font-weight: bold; */
-  border-style: solid;
-  border-color: black;
-  border-width: 0.05vw;
-}
-
-.exitbtn:hover {
-  background-color: white;
-  color: #2c8008;
-}
 
 .dest1 {
   background-color: #f28b30;
