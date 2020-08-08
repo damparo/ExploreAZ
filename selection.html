@@ -23,14 +23,15 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./assets/css/style1.css" />
+    <link rel="stylesheet" href="./assets/css/selection.css" />
   </head>
-  <body>
+  <body id="whitebackground">
     <nav>
       <div class="nav-wrapper">
         
-        <!-- <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
-        <ul id="nav-mobile" class="right">
+        <ul class="flexNav">
+          <li><a class="space"><p id="blacktext">Explore Arizona</p></a></li>
+
           <li><a href="selection.html"><i class="medium material-icons">explore</i></a></li>
           <li><a href="index.html"><i class="medium material-icons">home</i></a></li>
         </ul>
@@ -39,9 +40,7 @@
 
     <div class="container">
 
-      <div class="row fontDest">
-        <h4>Explore our featured destinations:</h4>
-      </div>
+    
 
       <div class="row" id="map"></div>
 
@@ -86,9 +85,9 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9ZlLxFonvHiDxEfNm1wua4_87JsjHLOY&callback=initMap"></script>
+    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9ZlLxFonvHiDxEfNm1wua4_87JsjHLOY&callback=initMap"></script> -->
 
-    <script src="script.js"></script>
+    <script src="selection.js"></script>
 
   </body>
 </html>

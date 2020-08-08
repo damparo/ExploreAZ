@@ -1,40 +1,4 @@
-$(document).ready(function(){
-    $('.sidenav').sidenav();
-  });
-        
-$(document).ready(function(){
-    $('.parallax').parallax();
-  });
-        
-
-
-  var images = ["IMG_3187.jpg", "IMG_4362.jpg", "IMG_4874.jpg"];
-
-  var randomPic = "./assets/css/Background/" + images[Math.floor(Math.random() * images.length)];
-  
-  console.log(randomPic);
- 
- 
- function mobileBackground () {
- 
-     return [
-         $("#randomPic").is(":visible"),
-         $("body").css({
-             "background-image": "url(" + randomPic + ")",
-             "background-position": "center center",
-             "background-repeat": "no-repeat",
-             "background-attachment": "fixed",
-             "background-size": "cover",
-             "background-color": "#464646",
-         })]
-     
- 
- }
- 
- mobileBackground();
- 
-
- function initMap () {
+function initMap () {
 
     var location = {
         lat: 33.9,
@@ -109,5 +73,3 @@ $(document).ready(function(){
 };
 
 initMap();
-
-// async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9ZlLxFonvHiDxEfNm1wua4_87JsjHLOY&callback=initMap"

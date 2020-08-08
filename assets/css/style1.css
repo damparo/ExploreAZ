@@ -159,12 +159,25 @@ nav {
 
 /* Selection page CSS starts here */
 
+#whitebackground {
+  background-color: white;
+}
+
 #map {
-  height: 650px;
-  width: 50%;
+  height:600px;
+  width: 80%;
   
 }
 
+@media only screen and (max-width: 800px){
+
+  #map {
+    height: 500px;
+    width: 90%;
+    
+  }
+
+}
 
 
 .container {
