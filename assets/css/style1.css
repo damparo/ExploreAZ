@@ -1,290 +1,35 @@
 nav {
-
   background-color: white;
   box-shadow: none;
   color: black;
-
-}
-/* #destWeather {
-  padding-top: 30px;
- } */
- #destWeather {
-  height: 50px;
-
- }
-.space:hover{
-  background-color: transparent;
-  cursor: default;
 }
 
-
-
- /* .remove:hover {
- background-color:transparent;
- } */
-
-#destTemp {
- color: black;
-}
-.material-icons {
-  color: black;
-}
 .flexNav {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
+#destWeather {
+  height: 50px;
 }
-
-.welcome {
-  font-family: 'Alegreya Sans SC', sans-serif;
-}
-
-.section {
-  text-align: center;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: larger;
-  color: white;
-  display: none;
-  text-align: center;
-}
-
-.Explore {
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: larger;
-  color: white;
-  display: none;
-  text-align: center;
-  border-style: solid;
-  border-width: 2px;
-  border-color: white;
-  border-radius: 12px;
+.space:hover {
   background-color: transparent;
-  width: 225px;
+  cursor: default;
 }
 
-.Explore:hover {
-  background-color: transparent;
-   
+#destTemp {
+  color: black;
 }
-
-.fa-long-arrow-right {
-  padding-left: 10px;
-
+.material-icons {
+  color: black;
 }
-
-.webexplore {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: larger;
-  color: white;
-  display: block;
-  text-align: center;
-  border-style: solid;
-  border-width: 2px;
-  border-color: white;
-  border-radius: 12px;
-  background-color: transparent;
-  width: 225px;
-
-}
-.webexplore:hover {
-  background-color: transparent;
-   
-}
-
-
-
-@media only screen and (max-width: 800px) {
-  /* .secondpic {
-    max-width: 200px;
-    height: 200px;
-    
-  } */
-
-  .section {
-    display: none;
-  }
-
-  .centered {
-    display: none;
-  }
-  
-  .parallax-container {
-    display: none;
-  }
-
-  .Explore {
-    display: block;
-  }
-  
-  .webexplore {
-    display: none;
-  }
-  #randomPic {
-    display: block;
-  
-}
-
-
-}
-
-/* commenting this out made the page work */
-/* @media only screen and (min-width: 800px) {
-  #randomPic {
-      display: none;
-    
-  }
-} */
-
-
-/* Selection page CSS starts here */
-
-#whitebackground {
-  background-color: white;
-}
-
-#map {
-  height:600px;
-  width: 80%;
-  
-}
-
-@media only screen and (max-width: 800px){
-
-  #map {
-    height: 500px;
-    width: 90%;
-    
-  }
-
-}
-
 
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.fontDest {
-  
-  font-weight: lighter;
-  /* background-color: black; */
-  color: black;
-  font-family: 'Bungee', cursive;
-}
-
-
-
-.dest1 {
-  background-color: #f28b30;
-  width: 100%;
-  /* font-size: 3vw; */
-  font-size: 3vh;
-  font-family: "Bungee Shade", cursive;
-  color: black;
-  font-weight: bolder;
-  border-color: #f28b30;
-  border-style: solid;
-  letter-spacing: 1.5vw;
-}
-
-.dest1:hover {
-  background-color: #f28b30;
-  color: white;
-}
-
-.dest2 {
-  background-color: #35848c;
-  width: 100%;
-  font-size: 3vh;
-  font-family: "Bungee Shade", cursive;
-  color: black;
-  font-weight: bolder;
-  border-color: #35848c;
-  border-style: solid;
-  letter-spacing: 1.35vw;
-}
-
-.dest2:hover {
-  background-color: #35848c;
-  color: white;
-}
-
-.dest3 {
-  background-color: #d9663d;
-  width: 100%;
-  font-size: 3vh;
-  font-family: "Bungee Shade", cursive;
-  color: black;
-  font-weight: bolder;
-  border-color: #d9663d;
-  border-style: solid;
-  letter-spacing: 1.5vw;
-}
-
-.dest3:hover {
-  background-color: #d9663d;
-  color: white;
-}
-
-.dest4 {
-  background-color: #d93a2b;
-  width: 100%;
-  font-size: 3vh;
-  font-family: "Bungee Shade", cursive;
-  color: black;
-  font-weight: bolder;
-  border-color: #d93a2b;
-  border-style: solid;
-  letter-spacing: 1.5vw;
-}
-
-.dest4:hover {
-  background-color: #d93a2b;
-  color: white;
-}
-
-/* Destination page CSS starts here */
-
-.house3 {
-  margin-top: 25px;
-  text-align: center;
-  /* padding-bottom: 2.5rem; */
-}
-
-.footer {
-    color: white;
-    text-align: center;
-    background-color: #f28b30;
-    height: 64px;
-
-}
-
-.nav1 {
-  background-color: #f28b30;
-  font-family: "Bungee", cursive;
 }
 
 .destName {
@@ -302,32 +47,19 @@ nav {
 }
 
 .carousel {
-  /* border-style: solid;
-  border-width: 5px;
-  border-color: #f28b30; */
   width: 30vw;
   margin: auto;
 }
 
 .destDescrip {
-  /* margin:auto; */
-  /* width: 30vw;
-    margin: auto; */
   text-align: justify;
-  font-family: 'Aleo', serif;
+  font-family: "Aleo", serif;
   margin-top: 4vh;
   width: 30vw;
-
-  /* align-content: center; */
 }
 .carousel-item img {
   width: 100%;
   height: 100%;
-}
-
-#destWeather {
-  /* text-align: justify; */
-  font-family: 'Aleo', serif;
 }
 
 @media only screen and (max-width: 700px) {
