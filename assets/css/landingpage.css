@@ -1,29 +1,59 @@
-
-.welcome {
-    font-family: "Alegreya Sans SC", sans-serif;
-  }
+.container {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1vh;
+}
   
-  .section {
-    text-align: center;
-  }
-  
+nav {
+  background-color: white;
+  box-shadow: none;
+  color: black;
+}
 
+.flexNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#blacktext {
+    color: black;
+    font-family: "Bungee", cursive;
+    /* font-size: 15px; */
+}
+
+.space:hover {
+  background-color: transparent;
+  cursor: default;
+}
+
+.material-icons {
+  color: black;
+
+}
+
+/* .fa {
+  color: black;
+  font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .fa {
+      padding-top: 25px;
+      font-size: 16px;
+  }
+} */
   .responsive {
     width: 100%;
+    max-width: 600px;
+    /* max-height: 400px; */
+    /* height: 100px; */
     height: auto;
   }
   
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-size: larger;
-    color: white;
-    display: none;
-    text-align: center;
-  }
+  
   
   .Explore {
     display: none;
@@ -80,17 +110,7 @@
       
     } */
   
-    .section {
-      display: none;
-    }
   
-    .centered {
-      display: none;
-    }
-  
-    .parallax-container {
-      display: none;
-    }
   
     .Explore {
       display: block;
@@ -111,3 +131,4 @@
     
   }
 } */
+

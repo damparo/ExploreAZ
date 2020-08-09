@@ -26,13 +26,28 @@ nav {
 
   .fa {
       color: black;
+      font-size: 20px;
+  }
+  @media only screen and (max-width: 600px) {
+      .fa {
+          padding-top: 25px;
+          font-size: 16px;
+      }
   }
 
   .container {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+
+
+
+
+  .card {
+      /* height: 375px; */
   }
 
   .card:hover {
@@ -40,12 +55,16 @@ nav {
   }
 
   .card-image {
-      /* width: 600px; */
-      /* height: 400px; */
-  }
+    /* background-size: cover;
+    background-position: center; */
+}
+/* .card-image.materialized.active {
+    max-height: none;
+    object-fit: none;
+} */
 
   .card-title {
-    font-family: "Bungee Shade", cursive;
+    /* font-family: "Bungee Shade", cursive; */
    
     /* position: absolute; */
     /* top: 40%; */

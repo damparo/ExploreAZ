@@ -31,7 +31,7 @@ $(document).ready(function(){
  
  }
  
- mobileBackground();
+//  mobileBackground();
  
 
  function initMap () {
