@@ -33,10 +33,11 @@ $(document).ready(function(){
     var wIcon = "https://openweathermap.org/img/w/" + image + ".png";
    
 
-
     $("#destWeather").append(
-      $("<img>").attr("src", wIcon),
-      $("<p>").text(temp + "°F"),
-   
+      $("<img>").attr("src", wIcon)
+      
     );
+    
+    $("#destTemp").text(temp + "°F")
+    ;
   });

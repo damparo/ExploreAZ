@@ -32,30 +32,35 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./assets/css/style3.css" />
+    <link rel="stylesheet" href="./assets/css/style1.css" />
   </head>
 
   <body>
-    <nav>
-      <div class="nav-wrapper nav1">
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-          <i class="material-icons">menu</i>
-        </a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="selection.html">Return</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+         
+          <ul class="flexNav">
+            <li><a id="destWeather" class="space"></a></li>
+            <li><a id="destTemp" class="space"></a></li>
+            <li><a
+              href="https://www.google.com/maps/search/?api=1&query=Bisbee"
+              style="color: black"
+              target="_blank"
+              >Directions</a
+            ></li>
 
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="selection.html">Selection Page</a></li>
-      <li><a href="twinArrows.html">Twin Arrows</a></li>
-      <li><a href="fossilCreek.html">Fossil Creek</a></li>
-      <li><a href="bisbee.html">Bisbee</a></li>
-      <li><a href="chiri.html">Chiricahua</a></li>
-    </ul>
+            <li><a href="destcard.html"><i class="medium material-icons">camera_alt</i></a></li>
+          
+            <li><a href="selection.html"><i class="medium material-icons">room</i></a></li>
+            <li><a href="index.html" class="removehover"><i class="medium material-icons">home</i></a></li>
+          </ul>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
-    <div class="container row house3 dennis">
+    <div class="container row house3">
       <div class="row destName">
         Bisbee
       </div>
@@ -91,23 +96,12 @@
         much to love about Bisbee.
       </div>
 
-      <div class="row destDirec">
-        <a
-          href="https://www.google.com/maps/search/?api=1&query=Bisbee"
-          style="color: #d9663d;"
-          target="_blank"
-          >How to get here!</a
-        >
-      </div>
+    
 
-      <div class="row" id="destWeather"></div>
+      
     </div>
 
-    <footer class="page-footer footer">
-      <div class="container">
-        <row class="s12"> </row>
-      </div>
-    </footer>
+ 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 

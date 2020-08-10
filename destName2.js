@@ -34,11 +34,12 @@ $(document).ready(function(){
 
 
     $("#destWeather").append(
-      $("<img>").attr("src", wIcon),
-      $("<p>").text(temp + "°F"),
-    
-     
+      $("<img>").attr("src", wIcon)
+      
     );
+    
+    $("#destTemp").text(temp + "°F")
+    ;
   });
 
 
