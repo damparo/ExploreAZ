@@ -50,6 +50,11 @@ nav {
   #blacktext {
       font-size: 15px;
   }
+
+  nav {
+  
+    border-bottom: 3px solid rgb(80, 79, 79);
+  }
 }
 
 .container {
