@@ -49,27 +49,40 @@ function initMap () {
 
      var marker1 = new google.maps.Marker({
          position: chiri,
+         url: "file:///C:/Users/19283/Empire/ExploreAZ/chiri.html",
          map: map
      });
      var marker2 = new google.maps.Marker({
          position: fossilCreek,
+         url: "file:///C:/Users/19283/Empire/ExploreAZ/fossilCreek.html",
          map: map
 
      });
      var marker3 = new google.maps.Marker({
          position: twinArrows,
+         url: "file:///C:/Users/19283/Empire/ExploreAZ/twinArrows.html",
          map: map
 
      });
      var marker4 = new google.maps.Marker({
          position: bisbee,
+         url: "file:///C:/Users/19283/Empire/ExploreAZ/bisbee.html",
          map: map
 
      });
 
-     google.maps.event.addListener(marker, "click", function(){
-         window.location.href = "https://google.com";
+     google.maps.event.addListener(marker1, "click", function(){
+         window.location.href = marker1.url;
      });
+     google.maps.event.addListener(marker2, "click", function(){
+        window.location.href = marker2.url;
+    }); google.maps.event.addListener(marker3, "click", function(){
+        window.location.href = marker3.url;
+    }); google.maps.event.addListener(marker4, "click", function(){
+        window.location.href = marker4.url;
+    });
+     
+  
 
 
 };
