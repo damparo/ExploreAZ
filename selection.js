@@ -47,26 +47,29 @@ function initMap () {
      });
 
 
+    //  var uri1 = new System.Uri("C:\Users\19283\Empire\ExploreAZ\bisbee.html");
+    // var converted = uri1.AbsoluteUri;
+
      var marker1 = new google.maps.Marker({
          position: chiri,
-         url: "file:///C:/Users/19283/Empire/ExploreAZ/chiri.html",
+         url: "https://damparo.github.io/ExploreAZ/chiri.html",
          map: map
      });
      var marker2 = new google.maps.Marker({
          position: fossilCreek,
-         url: "file:///C:/Users/19283/Empire/ExploreAZ/fossilCreek.html",
+         url: "https://damparo.github.io/ExploreAZ/fossilCreek.html",
          map: map
 
      });
      var marker3 = new google.maps.Marker({
          position: twinArrows,
-         url: "file:///C:/Users/19283/Empire/ExploreAZ/twinArrows.html",
+         url: "https://damparo.github.io/ExploreAZ/twinArrows.html",
          map: map
 
      });
      var marker4 = new google.maps.Marker({
          position: bisbee,
-         url: "file:///C:/Users/19283/Empire/ExploreAZ/bisbee.html",
+         url: "https://damparo.github.io/ExploreAZ/bisbee.html",
          map: map
 
      });
