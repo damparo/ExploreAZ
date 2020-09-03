@@ -2,7 +2,6 @@
 
 ## Description
 
-
 An application that lets a user check out travel destinations in the state of Arizona.
 
 ## App MockUp
@@ -17,10 +16,10 @@ Link to [project](https://damparo.github.io/ExploreAZ/)
 
 ## Built With
 
-Adobe XD - UX/UI design program <br>
+UX/UI - Adobe XD <br>
 HTML <br>
-Materialize - CSS Framework<br>
-JavaScript - programmming language<br>
+CSS Framework - Materialize <br>
+JavaScript <br>
 
 ## Authors
 Dennis Amparo <br>
@@ -28,4 +27,4 @@ Dennis Amparo <br>
 See commit history [here](https://github.com/damparo/ExploreAZ/graphs/contributors).
 
 ## Planned Updates
-Future updates include replacing weather API, creating accounts, and interactive map of the state
+Future updates include replacing weather API, user creating accounts, and allowing a user to upload destinations to general map.
