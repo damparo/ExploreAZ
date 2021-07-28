@@ -1,5 +1,38 @@
+nav {
+  background-color: 	transparent;
+  box-shadow: none;
+
+}
+
+nav ul a {
+ 
+  color: black;
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.8rem;
+
+}
+
+nav .brand-logo {
+  /* position: absolute; */
+  color: black;
+  font-family: 'Inconsolata', monospace;
+  /* display: inline-block;
+  padding: 0; */
+  font-size: 3.0rem;
+}
+
+#Arizona{
+ 
+  /* font-size: 150px; */
+  color: whitesmoke;
+  text-align: center;
+
+}
+
+
+
 .container {
-  margin-top: 2vh;
+  /* margin-top: 2vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,19 +40,14 @@
   margin-bottom: 1vh;
 }
   
-nav {
-  background-color: white;
-  box-shadow: none;
-  color: black;
-}
 
-.flexNav {
+/* .flexNav {
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-}
+} */
 
 #blacktext {
     color: black;
@@ -37,9 +65,9 @@ nav {
 
 }
 
-.imgbox {
+/* .imgbox {
   margin-top: 1vh;
-}
+} */
   .responsive {
     width: 100%;
     max-width: 600px;
@@ -50,22 +78,20 @@ nav {
   
   
   
-  
-  
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 600px) {
     
-  .container {
+  /* .container {
     margin-top: 10vh;
-  }
-
-  nav {
+  } */
+  nav .brand-logo {
   
-    border-bottom: 3px solid rgb(80, 79, 79);
-  }
-  
+    font-size: 1.07rem;
+ 
+}
   
    
   }
+  
   
 /* commenting this out made the page work */
 /* @media only screen and (min-width: 800px) {
