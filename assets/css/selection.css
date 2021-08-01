@@ -60,21 +60,32 @@ nav {
     object-fit: none;
 } */
 
-  .card-title {
-    /* font-family: "Bungee Shade", cursive; */
-   
-    /* position: absolute; */
-    /* top: 40%; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
+.card .card-image .card-title {
+  color: #fff;
+  max-width: 100%;
+  padding: 24px;
 
-    /* color: white; */
-/* 
-    text-align: center; */
-    /* border-style: solid;
-    border-width: 2px;
-    border-color: white;
-    border-radius: 12px; */
-    /* background-color: transparent; */
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  bottom: -9%;
+  left: 47%;
+  font-size: 20px;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    .card .card-image .card-title {
+      color: #fff;
+      max-width: 100%;
+      padding: 24px;
+      font-family: 'Raleway', sans-serif;
+      position: absolute;
+      bottom: -4%;
+      left: 58%;
+      font-size: 29px;
+    
+    
+    }
 
   }
