@@ -47,11 +47,6 @@ nav .brand-logo {
   align-items: center;
 } */
 
-#blacktext {
-    color: black;
-    font-family: "Bungee", cursive;
-    /* font-size: 15px; */
-}
 
 .space:hover {
   background-color: transparent;

@@ -10,7 +10,7 @@ nav {
     align-items: center;
   }
   
-  #blacktext {
+  nav .brand-logo {
       color: black;
       font-family: 'Homemade Apple', cursive;
   }
